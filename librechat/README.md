@@ -1,15 +1,12 @@
-## XPath Dokumentation
-
-| Tab | Collum | Hyperlink | Hyperlink |
-|-------|--------------|-----------|-----------|
-| `ENV` | `Collum A` | [ENV](/html/body/main/div/article/h1/text()) | [Category](/html/body/main/div/article/div[2]/h2/a/text()) |
-| `ENV` | `Collum B` | [Category](/html/body/main/div/article/div[2]/h2/a/text()) |
-| `ENV` | `Collum C` | [Category_URL](/html/body/main/div/article/div[2]/h2/a/@href) |
-| `ENV` | `Collum D` | [Subheading](/html/body/main/div/article/div[2]/h3/a/text()) |
-| `ENV` | `Collum E` | [Subheading_URL](/html/body/main/div/article/div[2]/h3/a/@href)
-| `ENV` | `Collum F` | [Resume](/html/body/main/div/article/div[2]/ul/text()) |
-| `ENV` | `Collum G` | [Key](/html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text()) |
-| `ENV` | `Collum H` | [Type](/html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text()) |
-| `ENV` | `Collum I` | [Description](/html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text()) |
-| `ENV` | `Collum J` | [Example](/html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text()) |
-
+readme.md
+Tab    Collum    Column:    Xpath:    Source:
+XPATH    A    ENV    /html/body/main/div/article/h1/text()    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    B    ENV_Category    /html/body/main/div/article/div[2]/h2/a/text()    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    C    ENV_Category-URL    /html/body/main/div/article/div[2]/h2/a/@href    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    D    ENV_Group    /html/body/main/div/article/div[2]/h3/a/text()    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    E    ENV_Group_URL    /html/body/main/div/article/div[2]/h3/a/@href    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    F    ENV_Resume    /html/body/main/div/article/div[2]/ul/text()    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    G    ENV_Key    /html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text()    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    H    ENV_Type    /html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text()    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    I    ENV_Description    /html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text()    https://www.librechat.ai/docs/configuration/dotenv
+XPATH    J    ENV_Example    /html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text()    https://www.librechat.ai/docs/configuration/dotenv
