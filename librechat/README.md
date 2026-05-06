@@ -12,10 +12,11 @@
 | XPATH | D | Subsection | `/html/body/main/div/article/div[2]/h3/a/text()` |
 | XPATH | E | Subsection_URL | `/html/body/main/div/article/div[2]/h3/a/@href` |
 | XPATH | F | Resume | `/html/body/main/div/article/div[2]/ul/text()` |
-| XPATH | G | Variable | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text()` |
-| XPATH | H | Type | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text()` |
-| XPATH | I | Description | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text()` |
-| XPATH | J | Example | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text()` |
+| XPATH | G | Resume2 | `/html/body/main/div/article/div[2]/ul/text()` |
+| XPATH | H | Variable | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text()` |
+| XPATH | I | Type | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text()` |
+| XPATH | J | Description | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text()` |
+| XPATH | K | Example | `/html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text()` |
 
 ## Schema
 
@@ -27,8 +28,9 @@
 | `ENV` | `Column D` | [Subheading](/html/body/main/div/article/div[2]/h3/a/text()) | Subsection heading |
 | `ENV` | `Column E` | [Subheading_URL](/html/body/main/div/article/div[2]/h3/a/@href) | Subsection anchor URL |
 | `ENV` | `Column F` | [Resume](/html/body/main/div/article/div[2]/ul/text()) | List item / summary text |
-| `ENV` | `Column G` | [Key](/html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text()) | Table header: variable name |
-| `ENV` | `Column H` | [Type](/html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text()) | Table header: type |
-| `ENV` | `Column I` | [Description](/html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text()) | Table header: description |
-| `ENV` | `Column J` | [Example](/html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text()) | Table header: example value |
+| `ENV` | `Column G` | [Resume2](/html/body/main/div/article/div[2]/p/text()) | List item / summary text |
+| `ENV` | `Column H` | [Key](/html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text()) | Table header: variable name |
+| `ENV` | `Column I` | [Type](/html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text()) | Table header: type |
+| `ENV` | `Column J` | [Description](/html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text()) | Table header: description |
+| `ENV` | `Column K` | [Example](/html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text()) | Table header: example value |
 
