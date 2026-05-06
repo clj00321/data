@@ -1,7 +1,7 @@
 ## Librechat.ai (Environment Variables)
 
-| Tab | Collums | Hyperlink | Kommentar |
+| Tab | Collums | Hyperlink |
 |-------|--------------|-----------|---------|
-| `ENV` | Collum A | [Se alle nyheder](https://eksempel.dk/nyheder) | Hovedoverskrift |
-| `ENV` | Collum B | [Produktlink](https://eksempel.dk/produkt/123) | Dynamisk produktlink |
+| `ENV` | Collum A | [Se alle nyheder](https://librechat.ai/docs/configuration/dotenv)|
+| `ENV` | Collum B | [Produktlink](https://librechat.ai/docs/configuration/dotenv)|
 | `ENV` | Collum C | 
