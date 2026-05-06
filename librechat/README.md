@@ -1,7 +1,7 @@
 ## XPath Dokumentation
 
-| Tab | Collum | Hyperlink |
-|-------|--------------|-----------|
+| Tab | Collum | Hyperlink | Hyperlink |
+|-------|--------------|-----------|-----------|
 | `ENV` | `Collum A` | [ENV](/html/body/main/div/article/h1/text()) | [Category](/html/body/main/div/article/div[2]/h2/a/text()) |
 | `ENV` | `Collum B` | [Category](/html/body/main/div/article/div[2]/h2/a/text()) |
 | `ENV` | `Collum C` | [Category_URL](/html/body/main/div/article/div[2]/h2/a/@href) |
