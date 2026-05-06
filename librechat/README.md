@@ -1,6 +1,6 @@
 ## XPath Dokumentation
 
-| Tab | Collum | Hyperlink |
+| Tab | Col | Hyperlink |
 |-------|--------------|-----------|
 | `XPath` | `A` | [ENV](/html/body/main/div/article/h1/text()) |
 | `XPath` | `B` | [Heading](/html/body/main/div/article/div[2]/h2/a/text()) |
