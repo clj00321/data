@@ -1,7 +1,7 @@
 ## XPath Dokumentation
 
 | Tab | Collum | Hyperlink |
-|-------|--------------|-----------|---------|
+|-------|--------------|-----------|
 | `ENV` | Collum A | [ENV](/html/body/main/div/article/h1/text()) |
 | `ENV` | Collum B | [Heading](https://librechat.ai/docs/configuration/dotenv) |
 | `ENV` | Collum C | [Heading_URL](https://librechat.ai/docs/configuration/dotenv) |
