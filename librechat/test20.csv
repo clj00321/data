@@ -1,4 +1,4 @@
-﻿Tab;Collum;Column:;Xpath:;Source:;;;;## XPath Dokumentation
+Tab;Collum;Column:;Xpath:;Source:;;;;## XPath Dokumentation
 XPATH;A;ENV;/html/body/main/div/article/h1/text();https://www.librechat.ai/docs/configuration/dotenv;;;;
 XPATH;B;Section;/html/body/main/div/article/div[2]/h2/a/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| Tab | Collum | ENV | Category | Group | Resume | Key | Type | Description | Example
 XPATH;C;Section-URL;/html/body/main/div/article/div[2]/h2/a/@href;https://www.librechat.ai/docs/configuration/dotenv;;;;|-------|--------------|-----------|-----------|
