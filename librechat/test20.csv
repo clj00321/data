@@ -1,0 +1,20 @@
+﻿Tab;Collum;Column:;Xpath:;Source:;;;;## XPath Dokumentation
+XPATH;A;ENV;/html/body/main/div/article/h1/text();https://www.librechat.ai/docs/configuration/dotenv;;;;
+XPATH;B;Section;/html/body/main/div/article/div[2]/h2/a/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| Tab | Collum | ENV | Category | Group | Resume | Key | Type | Description | Example
+XPATH;C;Section-URL;/html/body/main/div/article/div[2]/h2/a/@href;https://www.librechat.ai/docs/configuration/dotenv;;;;|-------|--------------|-----------|-----------|
+XPATH;D;Subsection;/html/body/main/div/article/div[2]/h3/a/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| `ENV` | `Collum A` | [ENV](/html/body/main/div/article/h1/text()) | [Category](/html/body/main/div/article/div[2]/h2/a/text()) |
+XPATH;E;Subsection_URL;/html/body/main/div/article/div[2]/h3/a/@href;https://www.librechat.ai/docs/configuration/dotenv;;;;| `ENV` | `Collum B` | [Category](/html/body/main/div/article/div[2]/h2/a/text()) |
+XPATH;F;Resume;/html/body/main/div/article/div[2]/ul/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| `ENV` | `Collum C` | [Category_URL](/html/body/main/div/article/div[2]/h2/a/@href) |
+XPATH;G;Variable;/html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| `ENV` | `Collum D` | [Subheading](/html/body/main/div/article/div[2]/h3/a/text()) |
+XPATH;H;Type;/html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| `ENV` | `Collum E` | [Subheading_URL](/html/body/main/div/article/div[2]/h3/a/@href)
+XPATH;I;Description;/html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| `ENV` | `Collum F` | [Resume](/html/body/main/div/article/div[2]/ul/text()) |
+XPATH;J;Example;/html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text();https://www.librechat.ai/docs/configuration/dotenv;;;;| `ENV` | `Collum G` | [Key](/html/body/main/div/article/div[2]/div/table/thead/tr/th[1]/text()) |
+;;;;;;;;| `ENV` | `Collum H` | [Type](/html/body/main/div/article/div[2]/div/table/thead/tr/th[2]/text()) |
+;;;;;;;;| `ENV` | `Collum I` | [Description](/html/body/main/div/article/div[2]/div/table/thead/tr/th[3]/text()) |
+;;;;;;;;| `ENV` | `Collum J` | [Example](/html/body/main/div/article/div[2]/div/table/thead/tr/th[4]/text()) |
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
